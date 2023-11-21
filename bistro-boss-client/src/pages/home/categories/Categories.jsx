@@ -7,10 +7,12 @@ import category2 from "../../../assets/home/slide2.jpg"
 import category3 from "../../../assets/home/slide3.jpg"
 import category4 from "../../../assets/home/slide4.jpg"
 import category5 from "../../../assets/home/slide5.jpg"
+import SectionHeader from '../../../components/section_header/SectionHeader';
 
 const Categories = () => {
     return (
         <div className='w-[90%] lg:w-[70%] mx-auto my-20'>
+            <SectionHeader header={`ORDER ONLINE`} subHeader={`From 11:00 am to 10:00 pm`}></SectionHeader>
             <Swiper
                 slidesPerView={4}
                 spaceBetween={30}
