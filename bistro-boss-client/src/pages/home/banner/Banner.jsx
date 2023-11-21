@@ -9,7 +9,7 @@ import banner6 from "../../../assets/home/06.png";
 
 const Banner = () => {
     return (
-        <div>
+        <section>
             <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showThumbs={false} stopOnHover={false} dynamicHeight={true} >
                 <div >
                     <img src={banner1} className="h-screen" />
@@ -30,7 +30,7 @@ const Banner = () => {
                     <img src={banner6} className="h-screen" />
                 </div>
             </Carousel>
-        </div>
+        </section>
     );
 };
 
